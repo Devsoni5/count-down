@@ -1,0 +1,42 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+  
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+  
+.title {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 20px;
+}
+  
+.col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+  
+input {
+    padding: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+  
+label {
+    color: white;
+}
+  
+#current-time {
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+}
